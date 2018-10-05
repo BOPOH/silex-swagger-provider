@@ -1,9 +1,13 @@
 silex-swagger-provider
 ======================
 
-[![Build Status](https://travis-ci.org/jdesrosiers/silex-swagger-provider.png?branch=master)](https://travis-ci.org/jdesrosiers/silex-swagger-provider)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jdesrosiers/silex-swagger-provider/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jdesrosiers/silex-swagger-provider/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/jdesrosiers/silex-swagger-provider/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/jdesrosiers/silex-swagger-provider/?branch=master)
+[![Build Status](https://travis-ci.com/BOPOH/silex-swagger-provider.svg?branch=master)](https://travis-ci.com/BOPOH/silex-swagger-provider)
+[![Coverage Status](https://coveralls.io/repos/github/BOPOH/silex-swagger-provider/badge.svg?branch=master)](https://coveralls.io/github/BOPOH/silex-swagger-provider?branch=master)
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/BOPOH/silex-swagger-provider/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/BOPOH/silex-swagger-provider/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/BOPOH/silex-swagger-provider/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/BOPOH/silex-swagger-provider/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/BOPOH/silex-swagger-provider/badges/build.png?b=master)](https://scrutinizer-ci.com/g/BOPOH/silex-swagger-provider/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/BOPOH/silex-swagger-provider/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 [silex-swagger-provider](https://github.com/jdesrosiers/silex-swagger-provider) is a silex service provider that
 integrates [swagger-php](https://github.com/zircote/swagger-php) into [silex](https://github.com/fabpot/Silex).  This
