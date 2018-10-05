@@ -164,7 +164,7 @@ class SwaggerServiceProviderTest extends \PHPUnit_Framework_TestCase
         $this->app["swagger.servicePath"] = __DIR__ . "/../../../../../vendor/zircote/swagger-php";
         $realPath = realpath($this->app["swagger.servicePath"]);
 
-        $this->app["logger"] = $this->getMock("Symfony\Component\HttpKernel\Log\LoggerInterface");
+        $this->app["logger"] = $this->getMock("Psr\Log\LoggerInterface");
         $this->app["logger"]->expects($this->any())
             ->method("notice")
             ->with("Skipping files in \"$realPath/tests\" add your \"vendor\" directory to the exclude paths");
