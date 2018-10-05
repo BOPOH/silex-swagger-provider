@@ -1,10 +1,8 @@
 language: php
 
 env:
-  - SILEX_VERSION="1.0.*" SWAGGER_VERSION="0.8.*"
   - SILEX_VERSION="1.1.*" SWAGGER_VERSION="0.8.*"
   - SILEX_VERSION="1.2.*" SWAGGER_VERSION="0.8.*"
-  - SILEX_VERSION="1.0.*" SWAGGER_VERSION="0.9.*"
   - SILEX_VERSION="1.1.*" SWAGGER_VERSION="0.9.*"
   - SILEX_VERSION="1.2.*" SWAGGER_VERSION="0.9.*"
 
@@ -16,7 +14,6 @@ before_script:
 script: vendor/bin/phpunit
 
 php:
-  - 5.3
   - 5.4
   - 5.5
   - 5.6
